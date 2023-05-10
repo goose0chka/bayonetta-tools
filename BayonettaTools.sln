@@ -10,6 +10,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BayonettaTools.TextureHighl
 		{D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9} = {D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9}
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BayonettaTools.TextureViewer", "BayonettaTools.TextureViewer\BayonettaTools.TextureViewer.csproj", "{F8497C1B-B9B3-4E3A-A304-3C9525A11415}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BayonettaTools.TextureResizer", "BayonettaTools.TextureResizer\BayonettaTools.TextureResizer.csproj", "{3909054C-1792-4CBC-A9E7-44919D37216A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8497C1B-B9B3-4E3A-A304-3C9525A11415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8497C1B-B9B3-4E3A-A304-3C9525A11415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8497C1B-B9B3-4E3A-A304-3C9525A11415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8497C1B-B9B3-4E3A-A304-3C9525A11415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3909054C-1792-4CBC-A9E7-44919D37216A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3909054C-1792-4CBC-A9E7-44919D37216A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3909054C-1792-4CBC-A9E7-44919D37216A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3909054C-1792-4CBC-A9E7-44919D37216A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
