@@ -5,6 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BayonettaTools.XmlTextureModel", "BayonettaTools.XmlTextureModel\BayonettaTools.XmlTextureModel.csproj", "{D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BayonettaTools.TextureHighlighter", "BayonettaTools.TextureHighlighter\BayonettaTools.TextureHighlighter.csproj", "{1546A79A-FB7B-4032-BF09-CBC6790C0380}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9} = {D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71D19AF-97F9-4AC1-84E5-2D2E3A7A18C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1546A79A-FB7B-4032-BF09-CBC6790C0380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
